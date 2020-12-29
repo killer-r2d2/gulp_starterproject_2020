@@ -6,19 +6,31 @@
 //  font-weight: bold;
 //}
 
+@font-face {
+  src: url("../fonts/RobotoMono-Bold.ttf");
+  font-family: Roboto-bold;
+  font-weight: bold;
+}
 
-// Typografie for mobile and desktop Example:
+@font-face {
+  src: url("../fonts/RobotoMono-Light.ttf");
+  font-family: Roboto-light;
+  font-weight: normal;
+}
 
-//.lead {
-//  font-size: 20px;
-//  line-height: 32px;
-//  color: #000000;
-//  font-family: Adelle, sans-serif;
-//}
-//
-//.copy {
-//  font-size: 17px;
-//  line-height: 28px;
-//  color: #000000;
-//  font-family: ProximaNova, sans-serif;
-//}
+@font-face {
+  src: url("../fonts/Lato-Light.ttf");
+  font-family: "lato-light";
+  font-weight: normal;
+}
+
+
+// Typografie for mobile and desktop:
+
+
+h1 {
+  font-size: 100px;
+  color: white;
+  font-family: Roboto-bold, sans-serif;
+}
+
