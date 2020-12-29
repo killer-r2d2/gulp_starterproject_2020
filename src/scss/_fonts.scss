@@ -7,30 +7,31 @@
 //}
 
 @font-face {
-  src: url("../fonts/RobotoMono-Bold.ttf");
-  font-family: Roboto-bold;
+  src: url("../fonts/RobotoMono-Regular.ttf");
+  font-family: roboto-regular;
   font-weight: bold;
 }
 
 @font-face {
-  src: url("../fonts/RobotoMono-Light.ttf");
-  font-family: Roboto-light;
+  src: url("../fonts/Lato-Light.ttf");
+  font-family: lato-light;
   font-weight: normal;
 }
 
 @font-face {
-  src: url("../fonts/Lato-Light.ttf");
-  font-family: "lato-light";
+  src: url("../fonts/Lato-Black.ttf");
+  font-family: "lato-black";
   font-weight: normal;
 }
 
 
 // Typografie for mobile and desktop:
 
-
-h1 {
+h1, h2 {
   font-size: 100px;
   color: white;
-  font-family: Roboto-bold, sans-serif;
+  font-family: lato-black, sans-serif;
 }
+
+
 
